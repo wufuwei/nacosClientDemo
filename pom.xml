@@ -37,6 +37,7 @@
         <elasticsearch.version>6.2.3</elasticsearch.version>
         <security-oauth2.version>2.3.3.RELEASE</security-oauth2.version>
         <spring-cloud-starter-alibaba-nacos-discovery.version>2.1.2.RELEASE</spring-cloud-starter-alibaba-nacos-discovery.version>
+        <spring-cloud-starter-alibaba-nacos-config.version>2.1.2.RELEASE</spring-cloud-starter-alibaba-nacos-config.version>
     </properties>
 
     <dependencies>
@@ -71,6 +72,11 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
             <version>${spring-cloud-starter-alibaba-nacos-discovery.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+            <version>${spring-cloud-starter-alibaba-nacos-config.version}</version>
         </dependency>
 
     </dependencies>
