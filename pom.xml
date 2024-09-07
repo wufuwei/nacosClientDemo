@@ -37,7 +37,7 @@
         <elasticsearch.version>6.2.3</elasticsearch.version>
         <security-oauth2.version>2.3.3.RELEASE</security-oauth2.version>
         <spring-cloud-starter-alibaba-nacos-discovery.version>2.1.2.RELEASE</spring-cloud-starter-alibaba-nacos-discovery.version>
-        <spring-cloud-starter-alibaba-nacos-config.version>2.1.2.RELEASE</spring-cloud-starter-alibaba-nacos-config.version>
+        <spring-cloud-starter-alibaba-nacos-config.version>2.2.10</spring-cloud-starter-alibaba-nacos-config.version>
     </properties>
 
     <dependencies>
